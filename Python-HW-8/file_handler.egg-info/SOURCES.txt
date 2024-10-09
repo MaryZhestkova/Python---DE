@@ -1,0 +1,14 @@
+setup.py
+file_handler/__init__.py
+file_handler/task1.py
+file_handler/task1_hw.py
+file_handler/task2.py
+file_handler/task3.py
+file_handler/task4.py
+file_handler/task5.py
+file_handler/task6.py
+file_handler/task7.py
+file_handler.egg-info/PKG-INFO
+file_handler.egg-info/SOURCES.txt
+file_handler.egg-info/dependency_links.txt
+file_handler.egg-info/top_level.txt

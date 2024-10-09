@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: file-handler
+Version: 0.1
+Summary: Package for handling file conversions and user management
+Author: Mariya_Zhestkova
+Requires-Python: >=3.6
