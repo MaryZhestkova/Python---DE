@@ -15,7 +15,7 @@ WebDriverWait(driver, 20).until(
     EC.presence_of_element_located((By.TAG_NAME, 'body'))
 )
 
-# Ожидание кнопки политики и клик по ней
+# Ожидание кнопки "Политика" и клик по ней
 politics_button = WebDriverWait(driver, 20).until(
     EC.element_to_be_clickable((By.LINK_TEXT, 'Политика'))
 )
@@ -23,7 +23,7 @@ politics_button.click()
 
 # Ожидание загрузки страницы с новостями о политике
 WebDriverWait(driver, 20).until(
-    EC.presence_of_element_located((By.TAG_NAME, 'body'))  # Можно заменить на более специфичный селектор
+    EC.presence_of_element_located((By.TAG_NAME, 'body'))  
 )
 
 # Кнопка "Еще 20 материалов"
